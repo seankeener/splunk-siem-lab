@@ -2,6 +2,10 @@
 
 <https://loom.com/share/e583c238f11248c6abad54c0dd0f1713>
 
+### SIEM Lab SPL/Scripts/Code
+
+https://docs.google.com/document/d/1o4ExvPUToo2WYkTBcRkDA-HyG7bR7nGGfpB_adpi1Ac/edit?usp=sharing
+
 
 # Splunk SIEM Lab for Failed Logins
 Splunk Enterprise SIEM Lab showcasing how to build it and what results we pulled from false login attempts 
