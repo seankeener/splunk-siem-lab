@@ -47,7 +47,7 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 - In Azure, edit the **Network Security Group (NSG)** for the Linux VM.
 - Add inbound rules for the following ports: 
   - **Port 8000** for the Splunk web interface
-  - **Port 997** for Splunk forwarder communication, as used in this lab
+  - **Port 9997** for Splunk forwarder communication, as used in this lab
 - Save the NSG changes and confirm the rules are active.
 
  
