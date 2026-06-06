@@ -1,3 +1,8 @@
+### Link to Loom
+
+<https://loom.com/share/e583c238f11248c6abad54c0dd0f1713>
+
+
 # Splunk SIEM Lab for Failed Logins
 Splunk Enterprise SIEM Lab showcasing how to build it and what results we pulled from false login attempts 
 ## SOP: Build a Splunk Enterprise Dashboard for Failed Logins and Account Lockouts
@@ -123,7 +128,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **10. Create and test an alert for privileged logons** [4:33](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=273)
 
-![generated-image-at-00:04:33](https://loom.com/i/6ed3098e0c6940be8f2054df2aa05d19?workflows_screenshot=true)
+<img width="2175" height="701" alt="image" src="https://github.com/user-attachments/assets/58209df3-04c0-4402-8d27-74ee401d2f66" />
+
 
 - Configure an alert for **high-privileged logon count**.
 - Test the alert by reviewing the triggered events.
@@ -134,7 +140,6 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **11. Finalize the dashboard and document the SPL logic** [5:09](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=309)
 
-![generated-image-at-00:05:09](https://loom.com/i/54bdefa4b5f04648a242f49dfaab2add?workflows_screenshot=true)
 
 - Add the SPL queries and trigger logic used to build the dashboard into the SOP appendix or supporting documentation.
 - Confirm the dashboard clearly shows: 
@@ -158,7 +163,3 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 - Use clear hostnames for the Linux and Windows VMs to simplify validation.
 - Test connectivity to port 8000 early so you can access the Splunk web UI without delays.
 - Reuse the same lab setup for future detections by saving the dashboard and alert configurations.
-
-### Link to Loom
-
-<https://loom.com/share/e583c238f11248c6abad54c0dd0f1713>
