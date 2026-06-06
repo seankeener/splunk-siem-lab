@@ -65,7 +65,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **5. Configure Windows event log collection** [2:00](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=120)
 
-![generated-image-at-00:02:00](https://loom.com/i/23a8afd0d2394f6d88952274157206e9?workflows_screenshot=true)
+<img width="752" height="404" alt="image" src="https://github.com/user-attachments/assets/dd3850c2-5b50-425e-9a82-458ff8d37180" />
+
 
 - Open the forwarder configuration in **VS Code** or a text editor.
 - Create or update the **inputs.conf** file.
