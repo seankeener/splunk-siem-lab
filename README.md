@@ -11,8 +11,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
  
 
 **1. Provision the lab environment in Azure** [0:10](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=10)
+<img width="1353" height="360" alt="image" src="https://github.com/user-attachments/assets/b7033880-385f-4518-aa95-b9e5168a9004" />
 
-![generated-image-at-00:00:10](https://loom.com/i/15ade66e14834420a37db7d0a7f30b0a?workflows_screenshot=true)
 
 - Create **two virtual machines** in Azure: 
   - **Linux VM** to host Splunk Enterprise
@@ -24,7 +24,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **2. Connect to the Linux VM and install Splunk Enterprise** [0:53](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=53)
 
-![generated-image-at-00:00:53](https://loom.com/i/b8951fe5553644fa8203fa05a1c07a21?workflows_screenshot=true)
+<img width="1067" height="1341" alt="image" src="https://github.com/user-attachments/assets/4ed8191b-2aba-47be-b348-b73427d1f471" />
+
 
 - Use **PuTTY** or another SSH client to connect to the Linux VM.
 - Download the **Splunk Enterprise Linux package** on the Linux machine.
@@ -35,7 +36,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **3. Open required network ports on the Linux VM** [1:12](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=72)
 
-![generated-image-at-00:01:12](https://loom.com/i/1032d6e668874425aa33a758c7875a40?workflows_screenshot=true)
+<img width="1327" height="417" alt="image" src="https://github.com/user-attachments/assets/eeee00a1-a32c-4ab2-8659-ef88235ebdc7" />
+
 
 - In Azure, edit the **Network Security Group (NSG)** for the Linux VM.
 - Add inbound rules for the following ports: 
@@ -47,7 +49,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **4. Install the Splunk Universal Forwarder on the Windows VM** [1:50](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=110)
 
-![generated-image-at-00:01:50](https://loom.com/i/be7f422d7e994fb8978dd6ee1ed767ff?workflows_screenshot=true)
+<img width="1123" height="647" alt="image" src="https://github.com/user-attachments/assets/96bae547-5724-4372-b5b8-a32790c4bd2b" />
+
 
 - Download and install the **Splunk Universal Forwarder** on the Windows VM.
 - Confirm the forwarder installation completes without errors.
@@ -71,7 +74,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **6. Restart the Splunk Forwarder to apply the configuration** [2:32](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=152)
 
-![generated-image-at-00:02:32](https://loom.com/i/dda748f1552f440bb7d98d913d6d91d0?workflows_screenshot=true)
+<img width="1445" height="903" alt="image" src="https://github.com/user-attachments/assets/552612e5-c1e8-41bd-b193-facf98b0aacb" />
+
 
 - Open **PowerShell** on the Windows VM.
 - Restart the Splunk Forwarder service so it loads the new `inputs.conf` settings.
@@ -81,7 +85,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **7. Generate failed login activity on the Windows VM** [2:42](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=162)
 
-![generated-image-at-00:02:42](https://loom.com/i/fe32992f9083400689332d5e3a26cc50?workflows_screenshot=true)
+<img width="1107" height="608" alt="image" src="https://github.com/user-attachments/assets/1f26099a-3a19-43df-a235-78ff481bd0a0" />
+
 
 - Open **Windows PowerShell ISE**.
 - Run the provided script that generates multiple event IDs and failed login attempts.
@@ -92,7 +97,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **8. Wait for log ingestion and search Splunk** [3:19](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=199)
 
-![generated-image-at-00:03:19](https://loom.com/i/e4f5cdf0a1e7419f820538062a0f930e?workflows_screenshot=true)
+<img width="1656" height="1061" alt="image" src="https://github.com/user-attachments/assets/1cdf931f-220d-40ef-a4db-105829c84d3f" />
+
 
 - After running the script, wait approximately **60 seconds** for logs to reach Splunk.
 - Open the Splunk dashboard or search interface.
@@ -102,7 +108,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **9. Build and validate the dashboard visualizations** [3:39](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=219)
 
-![generated-image-at-00:03:39](https://loom.com/i/4d7ddce1380d46f7b2a7876930b44349?workflows_screenshot=true)
+<img width="2511" height="954" alt="image" src="https://github.com/user-attachments/assets/beb1c85c-e41a-4e85-b48d-fb20ced757fa" />
+
 
 - Create dashboard panels to display the collected security events.
 - Include the following visualizations: 
