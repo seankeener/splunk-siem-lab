@@ -79,7 +79,7 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **6. Restart the Splunk Forwarder to apply the configuration** [2:32](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=152)
 
-<img width="1445" height="903" alt="image" src="https://github.com/user-attachments/assets/552612e5-c1e8-41bd-b193-facf98b0aacb" />
+<img width="1107" height="608" alt="image" src="https://github.com/user-attachments/assets/1f26099a-3a19-43df-a235-78ff481bd0a0" />
 
 
 - Open **PowerShell** on the Windows VM.
@@ -90,7 +90,8 @@ Create a Splunk Enterprise lab environment that collects Windows event logs from
 
 **7. Generate failed login activity on the Windows VM** [2:42](https://loom.com/share/e583c238f11248c6abad54c0dd0f1713?t=162)
 
-<img width="1107" height="608" alt="image" src="https://github.com/user-attachments/assets/1f26099a-3a19-43df-a235-78ff481bd0a0" />
+<img width="926" height="499" alt="image" src="https://github.com/user-attachments/assets/f2b3a0c4-157f-458c-a42b-95668ac0c525" />
+
 
 
 - Open **Windows PowerShell ISE**.
